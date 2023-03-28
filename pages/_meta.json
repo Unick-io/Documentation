@@ -1,15 +1,21 @@
 {
   "index": "Introduction",
-  "another": "Another Page",
+  "getting-started": "Getting Started",
   "advanced": "Advanced (A Folder)",
   "about": {
     "title": "About",
     "type": "page"
   },
   "contact": {
-    "title": "Contact ↗",
+    "title": "Twitter ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://twitter.com/unick_io",
+    "newWindow": true
+  },
+  "contact2":{
+    "title": "Insta ↗",
+    "type": "page",
+    "href": "https://twitter.com/unick_io",
     "newWindow": true
   }
 }
