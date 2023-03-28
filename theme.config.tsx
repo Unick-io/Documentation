@@ -2,17 +2,17 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: <span>Unick.io Documentation</span>,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://unick.io',
   },
   chat: {
-    link: 'https://discord.com',
+    link: 'https://discord.gg/gpnzJXBG8m',
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: 'https://github.com/Unick-io/Documentation',
   footer: {
-    text: 'Nextra Docs Template',
+    text: 'Unick.io Docs',
   },
-}
+};
 
 export default config
