@@ -17,5 +17,11 @@
     "type": "page",
     "href": "https://twitter.com/unick_io",
     "newWindow": true
+  },
+  "contact3":{
+    "title": "Web ↗",
+    "type": "page",
+    "href": "https://unick.io",
+    "newWindow": true
   }
 }
