@@ -1,31 +1,54 @@
-# Getting Started
+import { Callout } from 'nextra-theme-docs'
 
-```js filename="demo.js" {3} copy
-let a = 1;
+# 👋 Getting Started
 
-console.log(a);
-```
+You will require to have a web3 wallet connected to the blockchain of your choice to be able to interact with any web3 dApp including Unick.io dApps.
+Please see below a quick guide on how to complete this task.
 
-## Component
+## 💰 Installing a wallet
 
-import { useState } from 'react'
+##### ❓What is a web3 wallet?
 
-{/* Import CSS modules */}
-import styles from '../components/counters.module.css'
+A web3 wallet is a digital wallet that allows users to securely store, manage and interact with their cryptocurrencies and other digital assets (e.g NFTs) on the decentralized web (Web3).
 
-export const Counter = () => {
-  const [count, setCount] = useState(0);
-  return (
-    <div>
-      <button onClick={() => setCount(count + 1)} className={styles.counter}>Clicked {count} times</button>
-    </div>
-  );
-};
+#####  💻 Installing a web3 wallet browser extension
 
-<Counter/>
+Here are the general steps to install a web3 wallet browser extension:
 
-## External Component
+1. Open your preferred web browser (Chrome, Firefox, etc.).
+2. Go to the browser extension store (e.g. Chrome Web Store for Google Chrome).
+3. Search for the web3 wallet extension you want to install (e.g. [MetaMask](https://metamask.io/), [Coinbase Wallet](https://www.coinbase.com/wallet/articles/getting-started-extension) etc.).
+4. Click on the "Add to Chrome/Firefox" button or similar.
+5. A pop-up window may appear, click on "Add Extension" or similar.
+6. Wait for the extension to finish installing.
+7. Once the extension is installed, a new icon will appear in your browser's toolbar.
+8. Click on the extension icon to set up your wallet by following the on-screen instructions.
+{''}
+<Callout  type="info" emoji="ℹ️">
+Note: The specific steps may vary slightly depending on the web browser and extension you choose to install.
+We recommend using a [MetaMask](https://metamask.io/) wallet extension.
+</Callout>
+#### 📱 Mobile device?
+download for [Android](https://play.google.com/store/apps/details?id=io.metamask&hl=en&gl=US&pli=1)
+or [Apple](https://apps.apple.com/us/app/metamask-blockchain-wallet/id1438144202) device.
 
-import Counters from '../components/counters'
+## 🔗 Connecting your wallet
 
-<Counters />
+Here are the simple steps to connect a wallet to our dApp using the "Connect Wallet" button:
+
+1. Open the Web3 dApp in your web browser.
+2. Look for the "Connect Wallet" button in top right corner of any Unick dApp 
+3. Click on the "Connect Wallet" button.
+4. A pop-up window will appear, showing a list of supported wallets.
+5. Select the wallet you want to connect (e.g. MetaMask, Coinbase Wallet).
+6. If you haven't installed the wallet extension yet, follow the instructions above to install it.
+7. Once the wallet is installed and connected, you may need to unlock it by entering your password or passphrase.
+{''}
+Unick dApp should now be connected to your wallet, and you can interact with it using your wallet's features.
+
+## ✅ Adding compatible blockchains to your wallet
+
+Unick marketplace is a multi-chain venture and currently supports Ethereum, Arbitrum, Polygon, Optimism and Goerli testnet.
+You can add all of the above to your web3 wallet. 
+We recommend [chainlist](https://chainlist.org) to do so.
+
