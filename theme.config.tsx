@@ -5,9 +5,9 @@ import { DocsThemeConfig } from "nextra-theme-docs";
 const config: DocsThemeConfig = {
 
   logo: (
-    <span style={{ fontWeight: 900 }}>
+    <strong>
       Unick Docs
-    </span>
+    </strong>
   ),
   project: {
     link: 'https://github.com/Unick-io/Documentation',
