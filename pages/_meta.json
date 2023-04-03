@@ -1,11 +1,11 @@
 {
   "index": "Introduction",
+  "about": "About",
   "getting-started": "Getting Started",
+  "Features": "Features",
+  "UI": "User Guide",
+  "Fees": "Fees",
 
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
   "contact": {
     "title": "Twitter ↗",
     "type": "page",

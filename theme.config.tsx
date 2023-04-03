@@ -1,8 +1,9 @@
 import React from 'react';
-import { DocsThemeConfig } from 'nextra-theme-docs';
+import { DocsThemeConfig } from "nextra-theme-docs";
 
 
-const config: DocsThemeConfig = {
+const config: { DocsThemeConfig: any, useNextSeoProps: any } = {
+
   logo: (
     <span style={{ fontWeight: 900 }}>
       Unick Docs
@@ -17,7 +18,12 @@ const config: DocsThemeConfig = {
   docsRepositoryBase: 'https://github.com/Unick-io',
   footer: {
     text: 'Unick.io Docs',
-  }
+  } 
 }
 
 export default config;
+
+
+
+
+
